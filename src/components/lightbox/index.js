@@ -27,21 +27,36 @@ const LightBox = () => {
           <div className={lbox["grid-wrapper"]}>
             <a
               className={lbox["first-image"]}
-              href="https://picsum.photos/900/300?random=1.jpg"
+              href="https://assets.nintendo.com/image/upload/f_auto,q_auto,w_585/ncom/en_US/games/switch/s/stardew-valley-switch/screenshot-gallery/screenshot01?v=2021062816"
             >
-              <img src="https://picsum.photos/900/300?random=1.jpg" alt="r1" />
+              <img
+                src="https://assets.nintendo.com/image/upload/f_auto,q_auto,w_585/ncom/en_US/games/switch/s/stardew-valley-switch/screenshot-gallery/screenshot01?v=2021062816"
+                alt="r1"
+              />
             </a>
-            <a href="https://picsum.photos/450/300?random=2.jpg">
-              <img src="https://picsum.photos/450/300?random=2.jpg" alt="r2" />
+            <a href="https://assets.nintendo.com/image/upload/f_auto,q_auto,w_283/ncom/en_US/games/switch/s/stardew-valley-switch/screenshot-gallery/screenshot02?v=2021062816">
+              <img
+                src="https://assets.nintendo.com/image/upload/f_auto,q_auto,w_283/ncom/en_US/games/switch/s/stardew-valley-switch/screenshot-gallery/screenshot02?v=2021062816"
+                alt="r2"
+              />
             </a>
-            <a href="https://picsum.photos/450/300?random=3.jpg">
-              <img src="https://picsum.photos/450/300?random=3.jpg" alt="r3" />
+            <a href="https://assets.nintendo.com/image/upload/f_auto,q_auto,w_283/ncom/en_US/games/switch/s/stardew-valley-switch/screenshot-gallery/screenshot03?v=2021062816">
+              <img
+                src="https://assets.nintendo.com/image/upload/f_auto,q_auto,w_283/ncom/en_US/games/switch/s/stardew-valley-switch/screenshot-gallery/screenshot03?v=2021062816"
+                alt="r3"
+              />
             </a>
-            <a href="https://picsum.photos/450/300random=4.jpg">
-              <img src="https://picsum.photos/450/300?random=4.jpg" alt="r4" />
+            <a href="https://assets.nintendo.com/image/upload/f_auto,q_auto,w_283/ncom/en_US/games/switch/s/stardew-valley-switch/screenshot-gallery/screenshot04?v=2021062816">
+              <img
+                src="https://assets.nintendo.com/image/upload/f_auto,q_auto,w_283/ncom/en_US/games/switch/s/stardew-valley-switch/screenshot-gallery/screenshot04?v=2021062816"
+                alt="r4"
+              />
             </a>
-            <a href="https://picsum.photos/450/300?random=5.jpg">
-              <img src="https://picsum.photos/450/300?random=5.jpg" alt="r5" />
+            <a href="https://assets.nintendo.com/image/upload/f_auto,q_auto,w_283/ncom/en_US/games/switch/s/stardew-valley-switch/screenshot-gallery/screenshot05?v=2021062816">
+              <img
+                src="https://assets.nintendo.com/image/upload/f_auto,q_auto,w_283/ncom/en_US/games/switch/s/stardew-valley-switch/screenshot-gallery/screenshot05?v=2021062816"
+                alt="r5"
+              />
             </a>
           </div>
         </SRLWrapper>
