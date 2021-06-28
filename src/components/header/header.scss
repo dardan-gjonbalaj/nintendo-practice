@@ -1,0 +1,120 @@
+.container {
+  width: 100vw;
+  display: flex;
+  height: auto;
+  font-family: "Cinzel", serif;
+}
+
+.logo {
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 120px;
+}
+.logo-nintendo {
+  background-color: #e60012;
+  width: 100px;
+  height: 100%;
+  padding: 0 1rem !important;
+  transform: none;
+  transition: none;
+  border-radius: 0;
+  position: relative;
+  box-shadow: none;
+  display: inline-flex;
+  margin-left: 0;
+  margin-bottom: 1px;
+  z-index: 1;
+  svg {
+    fill: #fff;
+    height: 6vh;
+    align-items: center;
+  }
+}
+
+.links {
+  padding: 0 1rem;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  & a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+  }
+  & a:hover {
+    text-decoration: underline;
+    color: red;
+  }
+}
+
+.hamburger {
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: none;
+  padding: 0.25rem 0.5rem;
+  overflow: hidden;
+}
+// .hamburger:hover {
+//   background-color: rgba(138, 0, 0, 0.589);
+// }
+// .hamburger-icon {
+//   align-content: center;
+//   overflow: hidden;
+// }
+
+.backdrop {
+  position: fixed;
+  top: 6vh;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  background: #000;
+  cursor: pointer;
+  //pointer-events: none;
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+  &.is-active {
+    pointer-events: auto;
+    opacity: 0.8;
+    z-index: 1;
+  }
+}
+.navbox {
+  position: absolute;
+
+  font-weight: 700;
+  top: 6vh;
+  right: 0;
+  justify-content: flex-end;
+  width: 40vw;
+  background-color: rgba(255, 255, 255, 0.95);
+  height: 100vh;
+  z-index: 100;
+
+  border-left: 2px solid rgba(0, 0, 0, 0.5);
+  border-top: 2px dashed rgba(0, 0, 0, 0.15);
+  ul {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  li {
+    font-size: 24px;
+    color: #484848;
+    margin: 1em 0;
+    padding: 0;
+    max-height: 45px;
+    padding-left: 0.5em;
+  }
+  li:hover {
+    text-decoration: underline;
+    font-weight: 300;
+    color: red;
+    //padding-top: 0.125em;
+    //font-size: 30px;
+  }
+}

@@ -1,0 +1,78 @@
+.body-container {
+  width: 100vw;
+  height: auto;
+}
+
+.hero-container {
+  width: 100vw;
+  .hero-image {
+    width: 100vw;
+  }
+}
+
+.game-details {
+  position: relative;
+  font-family: "Padauk", sans-serif;
+  margin-top: 1em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.game-details-wrapper {
+  max-width: 96%;
+  display: grid;
+  grid-template-columns: 100%;
+  //grid-template-columns: 1fr auto;
+  grid-gap: 0 1em;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+.game-platform {
+  margin: 0 0 1em;
+  width: 100%;
+  & span {
+    padding: 0.3rem 0;
+    border-bottom: 2px solid rgb(230, 0, 18);
+  }
+}
+
+.basic-info {
+  margin: 0 0 0.5em;
+  & h1 {
+    font-size: 44px;
+    font-weight: 700;
+    font-family: "Cinzel", serif;
+    padding: 1rem 0;
+  }
+  & h1:hover {
+    color: red;
+  }
+  & h2 {
+    padding: 0.25rem 0;
+  }
+}
+
+.purchase-container {
+  font-family: "Padauk", sans-serif;
+
+  .msrp {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .purchase-button {
+    margin: 1rem 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(230, 0, 18);
+    border-radius: 12px;
+    text-align: left;
+    & span {
+      font-size: 18px;
+      font-weight: 700;
+      padding-left: 1rem;
+      color: white;
+    }
+  }
+}
